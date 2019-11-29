@@ -1,0 +1,32 @@
+{
+  "name": "markdown-css--like-github",
+  "version": "1.0.0",
+  "description": "Markdown CSS file that tries to look like Github style",
+  "main": "index.css",
+  "files": [
+    "index.css",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+     "prepublish": "cssnano markdown.css index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bySabi/markdown-css--like-github.git"
+  },
+  "keywords": [
+    "markdown",
+    "css",
+    "github"
+  ],
+  "author": "bySabi Files",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bySabi/markdown-css--like-github/issues"
+  },
+  "homepage": "https://github.com/bySabi/markdown-css--like-github#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
